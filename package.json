@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Automated bot to generate African cultural videos and post to Telegram and Facebook.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js"
   },
