@@ -1,11 +1,20 @@
 # African Artifact Bot
 
-This bot generates daily AI-powered cultural videos and posts them to Facebook and Telegram.
+Automated bot to generate cultural videos from AI-generated images and captions, then post them to Facebook and Telegram.
 
-## Setup
+## Files
 
-1. Install Node.js, ffmpeg
-2. Create a `.env` file with your API keys
-3. Run:
+- `index.js`: Main entry point
+- `generateContent.js`: Calls the image, video, and posting scripts
+- `generateImage.js`: Generates an image using AI
+- `generateVideo.js`: Creates a vertical video with overlay
+- `postToTelegram.js`: Posts to Telegram
+- `postToFacebook.js`: Posts to Facebook
+- `.env`: API keys and tokens
+- `posted_log.json`: Keeps track of already-posted content
+
+Run with:
 ```bash
+npm install
 node index.js
+```
