@@ -4,7 +4,6 @@ import { generateVideo } from './generateVideo.js';
 import fs from 'fs';
 import path from 'path';
 
-// === 🧠 PROMPT AND TEXT ===
 const prompt = "Elongated white Fang mask with serene expression, cultural art significance, spiritual depth";
 const title = "Fang Mask of Harmony – Gabon";
 const description = "Ngil society • Serene Power • Ancestral Law";
@@ -22,4 +21,4 @@ async function runBot() {
   }
 }
 
-runBot(); // 🔥 START BOT
+runBot(); // <== THIS LINE IS MANDATORY
